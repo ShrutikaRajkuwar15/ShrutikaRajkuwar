@@ -365,7 +365,6 @@ font-weight: 600;
 color: #AB5232;
 cursor: pointer;
 }
-
 .Projects .card-img-top{
     height: 250px;
     width: 100%;
@@ -444,6 +443,9 @@ cursor: pointer;
 }
 .hidden {
     display: none;
+}
+.project.hidden {
+  display: none;
 }
 .fixed-top {
     top: -40px;
@@ -548,6 +550,10 @@ footer p{
     .intro-img{
         object-fit: contain;
     }
+    .MySkills,.Education{
+        padding: 0 15px 0 15px !important;
+    }
+    
 }
 @media (max-width: 767px){
     .intro-img{
