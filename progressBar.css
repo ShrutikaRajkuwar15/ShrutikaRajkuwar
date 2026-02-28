@@ -88,7 +88,9 @@
   .bar .progress-line.shopify span{
     width: 70%;
   }
-
+.bar .progress-line.SEO span{
+    width: 60%;
+  }
   .progress-line span::before{
     position: absolute;
     content: "";
@@ -144,6 +146,9 @@
   }
   .progress-line.Github span::after{
     content: "70%";
+  }
+  .progress-line.SEO span::after{
+    content: "60%";
   }
   .progress-line.wordpress span::after{
     content: "90%";

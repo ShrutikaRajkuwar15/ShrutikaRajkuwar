@@ -107,8 +107,9 @@ p, span, a{
     outline: none !important;
 }
 .navbar .logo{
-    height: 50px;
-    object-fit: contain;
+    /* height: 50px;
+    object-fit: contain; */
+    width:200px;
 }
 .banner-container{
     height: calc(100vh - 60px);
